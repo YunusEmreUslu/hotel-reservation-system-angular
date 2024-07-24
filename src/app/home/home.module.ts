@@ -13,6 +13,9 @@ import { Router } from 'express';
   imports: [
     CommonModule,
     RouterModule
+  ],
+  exports: [
+    HomeComponent
   ]
 })
 export class HomeModule { }
